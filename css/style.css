@@ -25,11 +25,36 @@ a {
 .text-primary {
   color: #0d1321;
 }
+.text-center {
+  text-align: center;
+}
 .description {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 26px;
+}
+.section-title {
+  color: #0d1321;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 800;
+}
+.section-subtitle {
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+}
+.section-description {
+  margin: 16px 0px 32px;
+}
+.btn {
+  text-align: center;
+  font-size: 20px;
+  padding: 12px 20px;
+  border: 1px solid #0d1321;
+  opacity: 0.7;
 }
 /* Utility Classes End Here */
 /* Header Section Styling Start Here */
@@ -84,3 +109,37 @@ a {
   border-radius: 8px;
 }
 /* Header Section Styling End Here */
+/* Information Section Styling Start Here */
+#info {
+  margin: 74px 0px 90px;
+}
+#info .info-container {
+  background: rgba(13, 19, 33, 0.02);
+  border-radius: 16px;
+  padding: 80px 97px;
+}
+.info-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 48px;
+  border-radius: 16px;
+  background: linear-gradient(90deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
+}
+.info-text {
+  width: 60%;
+}
+.info-description {
+  margin: 24px 48px 48px;
+}
+.info-img {
+  width: 30%;
+}
+.info-img img {
+  width: 100%;
+}
+.info-box-extra {
+  margin: 32px 0px;
+  background: linear-gradient(270deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
+}
+/* Information Section Styling End Here */
