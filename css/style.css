@@ -143,3 +143,14 @@ a {
   background: linear-gradient(270deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
 }
 /* Information Section Styling End Here */
+/* Inspiration Section Styling Start Here */
+.inspiration-description {
+  width: 852px;
+  margin: 24px auto 48px;
+}
+.inspiration-video {
+  padding: 32px;
+  border-radius: 16px;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+}
+/* Inspiration Section Styling End Here */
