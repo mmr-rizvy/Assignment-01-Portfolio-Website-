@@ -122,9 +122,11 @@ a {
   line-height: 68px;
 }
 .showcase-description {
-  margin: 24px 0 32px;
+  width: 852px;
+  margin: 24px auto 32px;
 }
 .showcase-button {
+  display: inline-block;
   background: #0d1321;
   color: #fff;
   text-align: center;
