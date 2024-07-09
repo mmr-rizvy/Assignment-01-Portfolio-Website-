@@ -265,3 +265,18 @@ a {
   cursor: pointer;
 }
 /* Support Section Styling End Here */
+/* Footer Section Styling Start Here */
+#footer {
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.03);
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 0px;
+}
+.footer-text p {
+  font-size: 20px;
+}
+/* Footer Section Styling End Here */
