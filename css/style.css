@@ -7,3 +7,80 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+/* Browser Rest */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Utility Classes Start Here */
+a {
+  text-decoration: none;
+  color: #0d1321;
+}
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.text-primary {
+  color: #0d1321;
+}
+.description {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+/* Utility Classes End Here */
+/* Header Section Styling Start Here */
+#navbar .navbar-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 36px auto;
+}
+#navbar .navbar-container .logo a {
+  font-size: 28px;
+  font-weight: 800;
+}
+#navbar .navbar-container .download-cv-button {
+  display: inline-block;
+  padding: 17px 24px;
+  border-radius: 8px;
+  border: 1px solid #0d1321;
+  opacity: 0.8;
+  color: #0d1321;
+  font-size: 20px;
+}
+#showcase {
+  height: 652px;
+  background: url(../assets/img/Hero-bg.png) no-repeat center / cover;
+}
+#showcase .showcase-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 26px 69px 45px 73px;
+  text-align: center;
+}
+.showcase-text {
+  margin-top: 32px;
+}
+.showcase-title {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 68px;
+}
+.showcase-description {
+  margin: 24px 0 32px;
+}
+.showcase-button {
+  background: #0d1321;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  padding: 21px 24px;
+  border-radius: 8px;
+}
+/* Header Section Styling End Here */
